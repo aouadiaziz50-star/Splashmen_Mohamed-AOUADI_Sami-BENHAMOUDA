@@ -180,9 +180,9 @@ Ce mode permet de lancer le jeu sans ouvrir de fenêtre, ce qui est pratique pou
 ## 5. Compilation
 
 Dans le dossier du projet, il faut exécuter :
-
-```bash
+./splash --delay 15 --render-every 1 ./p1_square.so ./p2_snake.so ./p3_spiral.so ./p4_dash.so
 make
+
 
 ## 6. Répartition du travail
 
@@ -201,3 +201,5 @@ Nous avons réparti le travail de la manière suivante :
 - Makefile, organisation du projet et relecture finale.
 
 Nous avons ensuite relu et testé ensemble l’ensemble du projet afin de vérifier son bon fonctionnement.
+```bash
+
